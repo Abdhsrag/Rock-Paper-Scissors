@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2E236C;
+}
+
+
+#rock, #paper, #scissors {
+  font-size: 6.25rem;
+  color: #C8ACD6;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #C8ACD6;
+}

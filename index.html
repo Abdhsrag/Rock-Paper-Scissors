@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock>Paper>Scissors</title>
+
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="./css Tasks/style.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div class="container my-5">
+        <div class="row g-3  text-center justify-content-center">
+          <div class="col-md-4 col-sm-6 col-xs-12 mb-5">
+            <div>
+              <a href="#"><i id="rock" class="fa-solid fa-hand-fist"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div>
+              <a href="#"><i id="paper" class="fa-solid fa-hand"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div>
+              <a href="#"><i id="scissors" class="fa-solid fa-hand-scissors"></i></a>
+            </div>            
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12 " id="result">
+            <h2 class="mt-5" id="play"></h2>
+            
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <h2 class="text-start mt-5">
+              Player Score <span id="playerScore">0</span>
+              <br>
+              Computer Score <span id="computerScore">0</span>
+            </h2>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <button class="btn btn-lg py-3 px-5 btn-dark mt-5" id="clear">Clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
